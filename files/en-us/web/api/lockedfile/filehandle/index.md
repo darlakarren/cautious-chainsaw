@@ -1,0 +1,36 @@
+---
+title: LockedFile.fileHandle
+slug: Web/API/LockedFile/fileHandle
+tags:
+  - API
+  - Files
+  - Non Standard
+  - Property
+  - Reference
+  - WebAPI
+spec-urls: https://w3c.github.io/filesystem-api/
+---
+{{APIRef("File System API")}}{{non-standard_header}}
+
+## Summary
+
+The `fileHandle` property gives access to the {{domxref("IDBMutableFile")}}
+object that produced the {{domxref("LockedFile")}} object.
+
+## Syntax
+
+```js
+var handler = instanceOfLockedFile.fileHandle
+```
+
+## Value
+
+A {{domxref("IDBMutableFile")}} object.
+
+## Specifications
+
+{{Specifications}}
+
+## See also
+
+- {{domxref("LockedFile")}}
